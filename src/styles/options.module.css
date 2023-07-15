@@ -48,3 +48,16 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  ul {
+    grid-template-columns: 1fr; /* One column layout for smaller screens */
+    margin-left: 5%; /* Adjust margins for smaller screens */
+    margin-right: 5%;
+  }
+
+  .option, .correct, .incorrect {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
