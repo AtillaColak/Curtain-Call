@@ -1,3 +1,6 @@
+# The Current Problems 
+The option selection does not temporarily turn off functionality, so if you click options X times in a row, the page will be re-rendered X times. This would skip X-1 clips. I will fix this bug later or maybe not... This was just a very small-scale passion project and a way for me to display some of the movie clips I love.  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
