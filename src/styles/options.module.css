@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none; /* Remove bullet points */
+  display: grid; /* Display options in a grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 1px; /* Spacing between options */
+  grid-column-gap: 0;
+  justify-content: center; /* Center the options horizontally */
+  margin-left: 18%;
+  margin-right: 23%;
+}
+
+.option {
+  width: 350px; /* Set width to half of the container width with some spacing */
+  text-align: center; /* Center the text horizontally */
+  padding: 10px; /* Add spacing around the options */
+  background-color: #7a7a7a; /* Background color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-color: #6c6c6c;
+  margin: 0; /* Remove individual margin properties */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.option:hover {
+  background-color: #93a9c4;
+}
+
+.correct {
+  width: 350px; /* Set width to half of the container width with some spacing */
+  text-align: center; /* Center the text horizontally */
+  padding: 10px; /* Add spacing around the options */
+  background-color: #52a559; /* Background color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-color: #6c6c6c;
+  margin: 0; /* Remove individual margin properties */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.incorrect {
+  width: 350px; /* Set width to half of the container width with some spacing */
+  text-align: center; /* Center the text horizontally */
+  padding: 10px; /* Add spacing around the options */
+  background-color: #bf6a6a; /* Background color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-color: #6c6c6c;
+  margin: 0; /* Remove individual margin properties */
+  margin-left: auto;
+  margin-right: auto;
+}

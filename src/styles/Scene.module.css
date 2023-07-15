@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: rgb(176, 167, 149);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.background{
+    background-image: url(../../public/background.jpeg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.ccall{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  color: rgb(176, 167, 149);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
