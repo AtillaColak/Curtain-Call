@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Curtain-Call/static/css/main.0ec713a8.css",
-    "main.js": "/Curtain-Call/static/js/main.764d298d.js",
+    "main.js": "/Curtain-Call/static/js/main.32bcacd7.js",
     "static/media/background.jpeg": "/Curtain-Call/static/media/background.584b23b581d4272313fc.jpeg",
     "index.html": "/Curtain-Call/index.html",
     "main.0ec713a8.css.map": "/Curtain-Call/static/css/main.0ec713a8.css.map",
-    "main.764d298d.js.map": "/Curtain-Call/static/js/main.764d298d.js.map"
+    "main.32bcacd7.js.map": "/Curtain-Call/static/js/main.32bcacd7.js.map"
   },
   "entrypoints": [
     "static/css/main.0ec713a8.css",
-    "static/js/main.764d298d.js"
+    "static/js/main.32bcacd7.js"
   ]
 }
