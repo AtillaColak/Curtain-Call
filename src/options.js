@@ -8,12 +8,14 @@ function Options({name, alternatives, onClick, correctIndex}){
 
 
     function handleClick(){
+        if(answerChosen) return; 
         setAnswerChosen(true); 
         setTimeout(() => {
-            onClick();
             setAnswerChosen(false); 
+            onClick();
         }, 2000);// 2000 milliseconds = 2 seconds
     }
+
 
 
     const optionList = [] 
