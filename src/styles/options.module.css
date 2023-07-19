@@ -21,9 +21,11 @@ ul {
   margin-right: auto;
 }
 
-.option:hover {
-  background-color: #93a9c4;
-}
+@media (hover: hover) {
+  .option:hover {
+    background-color: #93a9c4;
+  }
+} 
 
 .correct {
   width: 350px; /* Set width to half of the container width with some spacing */
